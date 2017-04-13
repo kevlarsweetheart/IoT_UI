@@ -1,4 +1,28 @@
+.foot {
+  @include fullhd-and-above {
+    width: 450px;
+    padding-left: 713px;
+    padding-right: 713px;
+  }
+}
+
 .foot > ul {
   list-style: none;
   position: relative;
+  padding: 0;
+  margin: auto;
+}
+
+.foot-primary {
+  @include fullhd-and-above {
+    margin-top: 100px;
+  }
+  li {
+    display: inline-block;
+    @include fullhd-and-above {
+      font-size: 100px;
+      padding-left: 25px;
+      padding-right: 25px;
+    }
+  }
 }
