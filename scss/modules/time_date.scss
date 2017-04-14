@@ -1,13 +1,15 @@
 .time-date-div {
   @include fullhd-and-above {
-    width: 220px;
-    margin-left: 828px;
-    margin-right: 828px;
+    width: 520px;
+    padding-left: 22px;
+    //margin-left: 828px;
+    //margin-right: 828px;
   }
 }
 
 #time-date {
-  font-size: 50px;
+  font-size: 30px;
   font-weight: bold;
   color: $link-color;
+  font-family: 'Josefin Sans', sans-serif;
 }

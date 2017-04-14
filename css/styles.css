@@ -449,11 +449,11 @@ p {
 
 @media only screen and (min-width: 1920px) and (orientation: landscape) {
   .time-date-div {
-    width: 220px;
-    margin-left: 828px;
-    margin-right: 828px; } }
+    width: 520px;
+    padding-left: 22px; } }
 
 #time-date {
-  font-size: 50px;
+  font-size: 30px;
   font-weight: bold;
-  color: #1E90FF; }
+  color: #1E90FF;
+  font-family: 'Josefin Sans', sans-serif; }
