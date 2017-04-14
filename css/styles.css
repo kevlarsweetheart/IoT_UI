@@ -364,9 +364,6 @@ textarea {
   font: inherit;
   /* 2 */ }
 
-/* 1920px / 16px = 120em */
-/* 1280px / 16px = 80em */
-/* 768px / 16px = 48em */
 /* Base Styles */
 body {
   background-color: #F5F5F5;
@@ -388,18 +385,18 @@ p {
 .container {
   margin-left: auto;
   margin-right: auto; }
-  @media only screen and (min-width: 120em) and (orientation: landscape) {
+  @media only screen and (min-width: 1920px) and (orientation: landscape) {
     .container {
       padding-left: 22px;
       padding-right: 22px;
-      margin-top: 4.688em;
-      max-width: 117.25em; } }
+      margin-top: 75px;
+      max-width: 1876px; } }
 
 .row {
   position: relative; }
-  @media only screen and (min-width: 120em) and (orientation: landscape) {
+  @media only screen and (min-width: 1920px) and (orientation: landscape) {
     .row {
-      width: 117.25em; } }
+      width: 1876px; } }
 
 .row:after {
   content: "";
@@ -408,25 +405,25 @@ p {
 
 [class*='col-'] {
   position: relative; }
-  @media only screen and (min-width: 120em) and (orientation: landscape) {
+  @media only screen and (min-width: 1920px) and (orientation: landscape) {
     [class*='col-'] {
       padding-left: 22px;
       padding-right: 22px;
       float: left; } }
 
-@media only screen and (min-width: 120em) and (orientation: landscape) {
+@media only screen and (min-width: 1920px) and (orientation: landscape) {
   .col-1-4 {
     width: 425px; } }
 
 /*Button Modules*/
 .btn-main > img {
   position: relative; }
-  @media only screen and (min-width: 120em) and (orientation: landscape) {
+  @media only screen and (min-width: 1920px) and (orientation: landscape) {
     .btn-main > img {
       width: 425px;
       height: 425px; } }
 
-@media only screen and (min-width: 120em) and (orientation: landscape) {
+@media only screen and (min-width: 1920px) and (orientation: landscape) {
   .foot {
     width: 450px;
     padding-left: 713px;
@@ -438,14 +435,25 @@ p {
   padding: 0;
   margin: auto; }
 
-@media only screen and (min-width: 120em) and (orientation: landscape) {
+@media only screen and (min-width: 1920px) and (orientation: landscape) {
   .foot-primary {
     margin-top: 100px; } }
 
 .foot-primary li {
   display: inline-block; }
-  @media only screen and (min-width: 120em) and (orientation: landscape) {
+  @media only screen and (min-width: 1920px) and (orientation: landscape) {
     .foot-primary li {
       font-size: 100px;
       padding-left: 25px;
       padding-right: 25px; } }
+
+@media only screen and (min-width: 1920px) and (orientation: landscape) {
+  .time-date-div {
+    width: 220px;
+    margin-left: 828px;
+    margin-right: 828px; } }
+
+#time-date {
+  font-size: 50px;
+  font-weight: bold;
+  color: #1E90FF; }
