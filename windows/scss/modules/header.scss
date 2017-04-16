@@ -1,0 +1,15 @@
+.header-primary {
+  background: $nav-color;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  @include fullhd-and-above {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    &:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+  }
+}

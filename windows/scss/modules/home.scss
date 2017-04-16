@@ -1,0 +1,20 @@
+.home {
+  overflow: hidden;
+  display: inline-block;
+}
+
+.home > img {
+  @include fullhd-and-above {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+.home-text {
+  color: $white-smoke;
+  position: relative;
+  margin-left: 10px;
+  @include fullhd-and-above {
+    font-size: 40px;
+  }
+}

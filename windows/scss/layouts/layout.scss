@@ -1,0 +1,7 @@
+.container {
+  max-width: 1880px;
+  @include fullhd-and-above {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}

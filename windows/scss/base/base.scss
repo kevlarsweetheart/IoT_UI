@@ -8,6 +8,7 @@ body {
 
 a {
   color: $link-color;
+  text-decoration: none;
 }
 
 a:hover {
@@ -19,5 +20,5 @@ a:visited {
 }
 
 p {
-  color: $text-color;
+  color: black;
 }

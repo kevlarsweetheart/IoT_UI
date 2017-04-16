@@ -1,18 +1,27 @@
 var MOSCOW_OFF = 3; // hours
 var MONTHS = ["January", "February", "March", "April", "May", "June", "July",
-              "August", "September", "October", "November", "December"];
+"August", "September", "October", "November", "December"];
 
 // desired format => November 1, 2017 21:31:00
-function getLocalTime(offset) {
-    var d = new Date();
-    d.setTime((new Date().getTime()) +
-              (d.getTimezoneOffset() * 60 * 1000) + // local offset
-              (1000 * 60 * 60 * offset)); // target offset
-    var day = MONTHS[d.getMonth()] + " " + d.getDate() + ", " + d.getFullYear();
-    var time = d.toTimeString().split(" ")[0];
-    var time_date = time + " / " + day;
-    document.getElementById("time-date").innerHTML = time_date;
-    setTimeout(getLocalTime(MOSCOW_OFF), 1000);
-}
 
-getLocalTime(MOSCOW_OFF);
+function time_date(id) {
+  var d = new Date();
+  var day = new Date();
+  var hours = d.getHours();
+  if (hours < 10) {
+    hours = "0" + hours;
+  }
+  var minutes = d.getMinutes();
+  if (minutes < 10) {
+    minutes = "0" + minutes;
+  }
+  var seconds = d.getSeconds();
+  if (seconds < 10) {
+    seconds = "0" + seconds;
+  }
+  var time = hours + ':' + minutes + ':' + seconds;
+  var day = MONTHS[d.getMonth()] + " " + d.getDate() + ", " + d.getFullYear();
+  document.getElementById("time-date").innerHTML = day + " " + time;
+  window.setTimeout(arguments.callee, 1000);
+  return true;
+}

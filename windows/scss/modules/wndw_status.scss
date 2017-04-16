@@ -1,0 +1,16 @@
+.wnd-status {
+  position: relative;
+  @include fullhd-and-above {
+    margin-top: 350px;
+    padding-left: 100px;
+  }
+}
+
+.wnd-status > span {
+  color: $dodger-blue;
+  font-family: 'Josefin Sans', sans-serif;
+  @include fullhd-and-above {
+    font-size: 100px;
+    font-weight: lighter;
+  }
+}

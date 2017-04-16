@@ -1,0 +1,6 @@
+.btn-nav > img {
+  @include fullhd-and-above {
+    width: 40px;
+    height: 40px;
+  }
+}

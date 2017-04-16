@@ -1,0 +1,18 @@
+.nav > ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.nav-primary {
+  @include fullhd-and-above {
+    float: right;
+    width: 22%;
+    li {
+      display: inline-block;
+      //float: right;
+      margin-left: 30px;
+      margin-right: 30px;
+    }
+  }
+}

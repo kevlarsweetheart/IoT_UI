@@ -1,0 +1,30 @@
+.foot {
+  position: relative;
+  @include fullhd-and-above {
+    margin-top: 300px;
+    width: 200px;
+    margin-left: 1690px;
+  }
+}
+
+.foot > ul {
+  list-style: none;
+  position: relative;
+}
+
+.foot-primary {
+  li {
+    display: inline-block;
+    @include fullhd-and-above {
+      font-size: 30px;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    a {
+      color: $light-sky-blue;
+    }
+    a:hover {
+      color: $steel-blue;
+    }
+  }
+}
