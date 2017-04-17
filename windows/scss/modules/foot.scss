@@ -1,9 +1,9 @@
 .foot {
-  position: relative;
+  position: absolute;
   @include fullhd-and-above {
-    margin-top: 300px;
     width: 200px;
     margin-left: 1690px;
+    bottom: 30px;
   }
 }
 
