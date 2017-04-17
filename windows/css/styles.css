@@ -456,12 +456,12 @@ p {
       font-weight: lighter; } }
 
 .foot {
-  position: relative; }
+  position: absolute; }
   @media only screen and (min-width: 1920px) and (orientation: landscape) {
     .foot {
-      margin-top: 300px;
       width: 200px;
-      margin-left: 1690px; } }
+      margin-left: 1690px;
+      bottom: 30px; } }
 
 .foot > ul {
   list-style: none;
