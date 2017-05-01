@@ -7,3 +7,22 @@
     height: 425px;
   }
 }
+
+.alert-on-wnd > img {
+  @include fullhd-and-above {
+    width: $alert-size-x * 0.35;
+    height: $alert-size-y * 0.35;
+  }
+}
+
+.alert-on-wnd {
+  position: absolute;
+  @include fullhd-and-above {
+    left: 410px;
+    bottom: 225px;
+  }
+}
+
+.alert-off-wnd {
+  display: none;
+}

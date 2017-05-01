@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Classroom</title>
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+  </head>
+  <body>
+    <!-- Navigation bar -->
+    <header class="header-primary">
+      <div class="container">
+        <a href="../index.html" class="home">
+          <img src="../windows/images/home_icon.png">
+          <span class="home-text">HOME</span>
+        </a>
+        <nav class="nav nav-primary">
+          <ul>
+            <li>
+              <a href="../windows/window.html" class="btn-nav">
+                <img src="../windows/images/windows_icon.png">
+              </a>
+            </li>
+            <li>
+              <a href="#" class="btn-nav">
+                <img src="../windows/images/teapot_icon.png">
+              </a>
+            </li>
+            <li>
+              <a href="../phys_interf/phys.html" class="btn-nav">
+                <img src="../windows/images/wrench_icon.png">
+              </a>
+            </li>
+            <li>
+              <a href="#" class="btn-nav">
+                <img src="../windows/images/info_icon.png">
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- Main content -->
+    <main>
+      <div class="preferences">
+        <div class="col-1-3">
+          <div class="dropdown">
+            <button onclick="showColorsWarn()" class="drop-btn">WARNING</button>
+            <div id="warn-drop" class="colors">
+              <span class="opt" id="red"><i class="fa fa-square" aria-hidden="true"></i>
+     red <br /></span>
+              <span class="opt" id="orange"><i class="fa fa-square" aria-hidden="true"></i>
+     orange <br /></span>
+              <span class="opt" id="yellow"><i class="fa fa-square" aria-hidden="true"></i>
+     yellow <br /></span>
+              <span class="opt" id="green"><i class="fa fa-square" aria-hidden="true"></i>
+     green <br /></span>
+              <span class="opt" id="blue"><i class="fa fa-square" aria-hidden="true"></i>
+     blue <br /></span>
+              <span class="opt" id="violet"><i class="fa fa-square" aria-hidden="true"></i>
+     violet <br /></span>
+            </div>
+          </div>
+        </div>
+        <div class="col-1-3">
+          <div class="dropdown">
+            <button onclick="showColorsOk()" class="drop-btn">OK</button>
+            <div id="ok-drop" class="colors">
+              <span class="opt" id="red"><i class="fa fa-square" aria-hidden="true"></i>
+     red <br /></span>
+              <span class="opt" id="orange"><i class="fa fa-square" aria-hidden="true"></i>
+     orange <br /></span>
+              <span class="opt" id="yellow"><i class="fa fa-square" aria-hidden="true"></i>
+     yellow <br /></span>
+              <span class="opt" id="green"><i class="fa fa-square" aria-hidden="true"></i>
+     green <br /></span>
+              <span class="opt" id="blue"><i class="fa fa-square" aria-hidden="true"></i>
+     blue <br /></span>
+              <span class="opt" id="violet"><i class="fa fa-square" aria-hidden="true"></i>
+     violet <br /></span>
+            </div>
+          </div>
+        </div>
+        <div class="col-1-3">
+          <div class="dropdown">
+            <button onclick="showColorsNeu()" class="drop-btn">NEUTRAL</button>
+            <div id="neut-drop" class="colors">
+              <span class="opt" id="red"><i class="fa fa-square" aria-hidden="true"></i>
+     red <br /></span>
+              <span class="opt" id="orange"><i class="fa fa-square" aria-hidden="true"></i>
+     orange <br /></span>
+              <span class="opt" id="yellow"><i class="fa fa-square" aria-hidden="true"></i>
+     yellow <br /></span>
+              <span class="opt" id="green"><i class="fa fa-square" aria-hidden="true"></i>
+     green <br /></span>
+              <span class="opt" id="blue"><i class="fa fa-square" aria-hidden="true"></i>
+     blue <br /></span>
+              <span class="opt" id="violet"><i class="fa fa-square" aria-hidden="true"></i>
+     violet <br /></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- Footer content -->
+    <footer>
+      <div class="foot foot-primary">
+        <ul>
+          <li>
+            <a href="#" class="btn btn-foot">
+              <i class="fa fa-phone" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li>
+            <a target="_blank" href="https://vk.com/club88309453" class="btn btn-foot">
+              <i class="fa fa-vk" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="btn btn-foot">
+              <i class="fa fa-at" aria-hidden="true"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <script type="text/javascript" src="./phys.js"></script>
+  </body>
+</html>

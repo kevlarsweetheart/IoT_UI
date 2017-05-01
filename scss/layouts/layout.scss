@@ -13,12 +13,8 @@
 }
 
 .row {
-//  width: 1876px;
   position: relative;
-  //border-style: solid;
-  //border-color: black;
-  //border-width: thin;
-  @include fullhd-and-above {
+    @include fullhd-and-above {
     width: 1876px;
   }
 }
@@ -31,10 +27,6 @@
 
 [class*='col-'] {
   position: relative;
-  //border-style: solid;
-  //border-color: black;
-  //border-width: thin;
-  //width: 100%;
   @include fullhd-and-above {
     padding-left: 22px;
     padding-right: 22px;

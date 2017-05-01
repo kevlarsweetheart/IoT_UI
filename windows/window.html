@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Smart Classroom</title>
     <link rel="stylesheet" href="css/styles.css" type="text/css">
-    <script type="text/javascript" src="./window.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
@@ -30,7 +30,7 @@
               </a>
             </li>
             <li>
-              <a href="#" class="btn-nav">
+              <a href="../phys_interf/phys.html" class="btn-nav">
                 <img src="./images/wrench_icon.png">
               </a>
             </li>
@@ -44,12 +44,41 @@
       </div>
     </header>
     <!-- Main content -->
+    <form action="">
+        <input autocomplete="off" id="m" placeholder="Post message"><button>Send</button>
+    </form>
     <main>
       <section>
         <div class="wnd-status">
-          <span>Window status: </span>
-          <span id="status"></span>
+          <div class="row">
+            <div class="col-1-2">
+              <p>LEFT WINDOW</p>
+              <div class="status">
+                <span class="field">Status: </span>
+                <span id="left-wnd" class="closed">closed</span>
+              </div>
+              <div class="battery">
+                <span class="field">Battery charge: </span>
+                <span id="left-charge" class="normal">normal</span>
+              </div>
+            </div>
+            <div class="col-1-2">
+              <p>RIGHT WINDOW</p>
+              <div class="status">
+                <span class="field">Status: </span>
+                <span id="right-wnd" class="closed">closed</span>
+              </div>
+              <div class="battery">
+                <span class="field">Battery charge: </span>
+                <span id="right-charge" class="normal">normal</span>
+              </div>
+            </div>
+          </div>
+          <!--<div id="status" class="closed"><span>closed</span></div>
         </div>
+        <form action="">
+          <input autocomplete="closed" id="m" placeholder="Post message"><button>Send</button>
+        </form>-->
       </section>
     </main>
     <footer>
@@ -73,5 +102,6 @@
         </ul>
       </div>
     </footer>
+    <script type="text/javascript" src="./window.js"></script>
   </body>
 </html>

@@ -1,7 +1,39 @@
 .container {
+  margin-left: auto;
+  margin-right: auto;
   max-width: 1880px;
   @include fullhd-and-above {
     padding-left: 20px;
     padding-right: 20px;
+  }
+}
+
+.row {
+  position: relative;
+  @include fullhd-and-above {
+    width: 1720px;
+  }
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+[class*='col-'] {
+  position: relative;
+  text-align: left;
+  @include fullhd-and-above {
+    float: left;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+
+@include fullhd-and-above {
+  .col-1-2 {
+    width: 660px;
   }
 }

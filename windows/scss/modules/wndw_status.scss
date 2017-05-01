@@ -1,16 +1,101 @@
 .wnd-status {
   position: relative;
+  margin-left: auto;
+  margin-right: auto;
   @include fullhd-and-above {
-    margin-top: 350px;
+    margin-top: 230px;
     padding-left: 100px;
+    padding-right: 100px;
+    max-width: 1720px;
+  }
+  p {
+    color: $dodger-blue;
+    font-family: 'Josefin Sans', sans-serif;
+    @include fullhd-and-above {
+      font-size: 60px;
+      font-weight: lighter;
+    }
+  }
+  .field {
+    color: $steel-blue;
+    font-family: 'Quicksand', sans-serif;
+    @include fullhd-and-above {
+      font-size: 35px;
+      font-weight: lighter;
+    }
   }
 }
 
-.wnd-status > span {
-  color: $dodger-blue;
-  font-family: 'Josefin Sans', sans-serif;
+.status {
+  position: relative;
   @include fullhd-and-above {
-    font-size: 100px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+}
+
+.battery {
+  position: relative;
+  @include fullhd-and-above {
+    margin-top: 15px;
+  }
+}
+
+.closed {
+  color: $forest-green;
+  font-family: 'Quicksand', sans-serif;
+  @include fullhd-and-above {
+    font-size: 35px;
     font-weight: lighter;
   }
+}
+
+.open {
+  color: $crimson;
+  font-family: 'Quicksand', sans-serif;
+  @include fullhd-and-above {
+    font-size: 35px;
+    font-weight: lighter;
+  }
+}
+
+.normal {
+  color: $forest-green;
+  font-family: 'Quicksand', sans-serif;
+  @include fullhd-and-above {
+    font-size: 35px;
+    font-weight: lighter;
+  }
+}
+
+.low {
+  color: $crimson;
+  font-family: 'Quicksand', sans-serif;
+  @include fullhd-and-above {
+    font-size: 35px;
+    font-weight: lighter;
+  }
+}
+
+form {
+    background: rgb(17,94,162);
+    padding: 3px;
+    position: fixed;
+    bottom: 0;
+    width: 100%
+}
+
+form input {
+    border: 0;
+    padding: 10px;
+    width: 85%;
+    margin-right: .5%
+}
+
+form button {
+    width: 13%;
+    background: #FFD630;
+    font-weight: bold;
+    border: none;
+    padding: 10px 3px;
 }

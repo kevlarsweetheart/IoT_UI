@@ -424,6 +424,21 @@ p {
       height: 425px; } }
 
 @media only screen and (min-width: 1920px) and (orientation: landscape) {
+  .alert-on-wnd > img {
+    width: 54.6px;
+    height: 251.3px; } }
+
+.alert-on-wnd {
+  position: absolute; }
+  @media only screen and (min-width: 1920px) and (orientation: landscape) {
+    .alert-on-wnd {
+      left: 410px;
+      bottom: 225px; } }
+
+.alert-off-wnd {
+  display: none; }
+
+@media only screen and (min-width: 1920px) and (orientation: landscape) {
   .foot {
     width: 450px;
     padding-left: 713px;
