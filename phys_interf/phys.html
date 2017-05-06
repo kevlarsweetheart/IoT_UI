@@ -48,23 +48,7 @@
     <main>
       <div class="preferences">
         <div class="col-1-3">
-          <div class="dropdown">
-            <button onclick="showColorsWarn()" class="drop-btn">WARNING</button>
-            <div id="warn-drop" class="colors">
-              <span class="opt" id="red"><i class="fa fa-square" aria-hidden="true"></i>
-     red <br /></span>
-              <span class="opt" id="orange"><i class="fa fa-square" aria-hidden="true"></i>
-     orange <br /></span>
-              <span class="opt" id="yellow"><i class="fa fa-square" aria-hidden="true"></i>
-     yellow <br /></span>
-              <span class="opt" id="green"><i class="fa fa-square" aria-hidden="true"></i>
-     green <br /></span>
-              <span class="opt" id="blue"><i class="fa fa-square" aria-hidden="true"></i>
-     blue <br /></span>
-              <span class="opt" id="violet"><i class="fa fa-square" aria-hidden="true"></i>
-     violet <br /></span>
-            </div>
-          </div>
+          <button class="jscolor {onFineChange:'update(this)'}" id="warn">WARNING</button>
         </div>
         <div class="col-1-3">
           <div class="dropdown">
@@ -128,6 +112,7 @@
         </ul>
       </div>
     </footer>
+    <script type="text/javascript" src="./jscolor.js"></script>
     <script type="text/javascript" src="./phys.js"></script>
   </body>
 </html>

@@ -480,6 +480,18 @@ p {
     .drop-btn {
       font-size: 40px; } }
 
+#warn {
+  background-color: #F5F5F5;
+  color: #DC143C;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  border-style: solid;
+  border-color: #F5F5F5;
+  cursor: pointer; }
+  @media only screen and (min-width: 1920px) and (orientation: landscape) {
+    #warn {
+      font-size: 40px; } }
+
 .dropdown {
   position: relative;
   display: inline-block; }
