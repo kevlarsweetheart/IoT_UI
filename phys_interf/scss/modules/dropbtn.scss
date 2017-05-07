@@ -1,81 +1,38 @@
-/* Dropdown Button */
-.drop-btn {
-  background-color: $white-smoke;
-  color: $crimson;
-  text-align: center;
-  font-family: 'Josefin Sans', sans-serif;
-  @include fullhd-and-above {
-    font-size: 40px;
-  }
-  border-style: solid;
-  border-color: $white-smoke;
-  border-width: thin;
-  border-radius: 15px;
-  cursor: pointer;
-}
-
 #warn {
   background-color: $white-smoke;
   color: $crimson;
   text-align: center;
   font-family: 'Josefin Sans', sans-serif;
   @include fullhd-and-above {
-    font-size: 40px;
+    font-size: 45px;
   }
   border-style: solid;
   border-color: $white-smoke;
   cursor: pointer;
 }
 
-.dropdown {
-  position: relative;
-  display: inline-block;
-  @include fullhd-and-above {
-    width: 340px;
-  }
-}
-
-/* Dropdown Content (Hidden by Default) */
-.colors {
-  display: none;
-  position: relative;
+#ok {
   background-color: $white-smoke;
-  z-index: 1;
-  .opt {
-    @include fullhd-and-above {
-      width: 340px;
-      font-size: 25px;
-      margin-top: 5px;
-      margin-bottom: 5px;
-    }
-    .fa-square {
-      @include fullhd-and-above {
-        margin-top: 5px;
-        margin-bottom: 5px;
-        font-size: 20px;
-      }
-    }
+  color: $forest-green;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  @include fullhd-and-above {
+    font-size: 45px;
   }
-  #red {
-    color: $crimson;
-  }
-  #orange {
-    color: $dark-orange;
-  }
-  #yellow {
-    color: $gold;
-  }
-  #green {
-    color: $forest-green;
-  }
-  #blue {
-    color: $medium-blue;
-  }
-  #violet {
-    color: $dark-violet;
-  }
+  border-style: solid;
+  border-color: $white-smoke;
+  cursor: pointer;
 }
 
-.show {
-  display:block;
+#neut {
+  background-color: $white-smoke;
+  color: $medium-blue;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  @include fullhd-and-above {
+    font-size: 45px;
+  }
+  border-style: solid;
+  border-color: $white-smoke;
+  cursor: pointer;
 }

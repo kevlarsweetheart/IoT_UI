@@ -1057,40 +1057,6 @@ var jsc = {
 
 
 		this.importColor = function () {
-	/*		if (!this.valueElement) {
-				this.exportColor();
-			} else {
-				if (jsc.isElementType(this.valueElement, 'input')) {
-					if (!this.refine) {
-						if (!this.fromString(this.valueElement.value, jsc.leaveValue)) {
-							if (this.styleElement) {
-								this.styleElement.style.backgroundImage = this.styleElement._jscOrigStyle.backgroundImage;
-								this.styleElement.style.backgroundColor = this.styleElement._jscOrigStyle.backgroundColor;
-								this.styleElement.style.color = this.styleElement._jscOrigStyle.color;
-							}
-							this.exportColor(jsc.leaveValue | jsc.leaveStyle);
-						}
-					} else if (!this.required && /^\s*$/.test(this.valueElement.value)) {
-						this.valueElement.value = '';
-						if (this.styleElement) {
-							this.styleElement.style.backgroundImage = this.styleElement._jscOrigStyle.backgroundImage;
-							this.styleElement.style.backgroundColor = this.styleElement._jscOrigStyle.backgroundColor;
-							this.styleElement.style.color = this.styleElement._jscOrigStyle.color;
-						}
-						this.exportColor(jsc.leaveValue | jsc.leaveStyle);
-
-					} else if (this.fromString(this.valueElement.value)) {
-						// managed to import color successfully from the value -> OK, don't do anything
-					} else {
-						this.exportColor();
-					}
-				} else {
-					// not an input element -> doesn't have any value
-					this.exportColor();
-				}
-			}
-
-			*/
 		};
 
 
@@ -1099,17 +1065,14 @@ var jsc = {
 				var value = this.toString();
 				if (this.uppercase) { value = value.toUpperCase(); }
 				if (this.hash) { value = '#' + value; }
-
-	//			if (jsc.isElementType(this.valueElement, 'input')) {
-	//				this.valueElement.value = 'saggaga';
-	//			} else {
-	//				this.valueElement.innerHTML = 'agdasgag';
-	//			}
 			}
 			if (!(flags & jsc.leaveStyle)) {
 				if (this.styleElement) {
 					this.styleElement.style.backgroundImage = 'none';
 					this.styleElement.style.backgroundColor = '#F5F5F5';
+					this.styleElement.style.borderColor = this.isLight() ? '#1E90FF' : '#F5F5F5';
+					this.styleElement.style.borderWidth = 'thin';
+					this.styleElement.style.borderRadius = '5px';
 					this.styleElement.style.color = '#' + this.toString();
 				}
 			}

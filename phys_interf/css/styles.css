@@ -465,21 +465,6 @@ p {
     width: 40px;
     height: 40px; } }
 
-/* Dropdown Button */
-.drop-btn {
-  background-color: #F5F5F5;
-  color: #DC143C;
-  text-align: center;
-  font-family: 'Josefin Sans', sans-serif;
-  border-style: solid;
-  border-color: #F5F5F5;
-  border-width: thin;
-  border-radius: 15px;
-  cursor: pointer; }
-  @media only screen and (min-width: 1920px) and (orientation: landscape) {
-    .drop-btn {
-      font-size: 40px; } }
-
 #warn {
   background-color: #F5F5F5;
   color: #DC143C;
@@ -490,47 +475,31 @@ p {
   cursor: pointer; }
   @media only screen and (min-width: 1920px) and (orientation: landscape) {
     #warn {
-      font-size: 40px; } }
+      font-size: 45px; } }
 
-.dropdown {
-  position: relative;
-  display: inline-block; }
-  @media only screen and (min-width: 1920px) and (orientation: landscape) {
-    .dropdown {
-      width: 340px; } }
-
-/* Dropdown Content (Hidden by Default) */
-.colors {
-  display: none;
-  position: relative;
+#ok {
   background-color: #F5F5F5;
-  z-index: 1; }
+  color: #228B22;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  border-style: solid;
+  border-color: #F5F5F5;
+  cursor: pointer; }
   @media only screen and (min-width: 1920px) and (orientation: landscape) {
-    .colors .opt {
-      width: 340px;
-      font-size: 25px;
-      margin-top: 5px;
-      margin-bottom: 5px; } }
-  @media only screen and (min-width: 1920px) and (orientation: landscape) {
-    .colors .opt .fa-square {
-      margin-top: 5px;
-      margin-bottom: 5px;
-      font-size: 20px; } }
-  .colors #red {
-    color: #DC143C; }
-  .colors #orange {
-    color: #FF8C00; }
-  .colors #yellow {
-    color: #FFD700; }
-  .colors #green {
-    color: #228B22; }
-  .colors #blue {
-    color: #0000CD; }
-  .colors #violet {
-    color: #9400D3; }
+    #ok {
+      font-size: 45px; } }
 
-.show {
-  display: block; }
+#neut {
+  background-color: #F5F5F5;
+  color: #0000CD;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  border-style: solid;
+  border-color: #F5F5F5;
+  cursor: pointer; }
+  @media only screen and (min-width: 1920px) and (orientation: landscape) {
+    #neut {
+      font-size: 45px; } }
 
 .foot {
   position: absolute; }
