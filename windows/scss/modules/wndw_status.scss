@@ -8,11 +8,21 @@
     padding-right: 100px;
     max-width: 1720px;
   }
+  @include hd720-and-above {
+    max-width: 1146px;
+    padding-left: 67px;
+    padding-right: 67px;
+    margin-top: 154px;
+  }
   p {
     color: $dodger-blue;
     font-family: 'Josefin Sans', sans-serif;
     @include fullhd-and-above {
       font-size: 60px;
+      font-weight: lighter;
+    }
+    @include hd720-and-above {
+      font-size: 40px;
       font-weight: lighter;
     }
   }
@@ -21,6 +31,10 @@
     font-family: 'Quicksand', sans-serif;
     @include fullhd-and-above {
       font-size: 35px;
+      font-weight: lighter;
+    }
+    @include hd720-and-above {
+      font-size: 24px;
       font-weight: lighter;
     }
   }
@@ -32,12 +46,19 @@
     margin-top: 15px;
     margin-bottom: 15px;
   }
+  @include hd720-and-above {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
 }
 
 .battery {
   position: relative;
   @include fullhd-and-above {
     margin-top: 15px;
+  }
+  @include hd720-and-above {
+    margin-top: 10px;
   }
 }
 
@@ -46,6 +67,10 @@
   font-family: 'Quicksand', sans-serif;
   @include fullhd-and-above {
     font-size: 35px;
+    font-weight: lighter;
+  }
+  @include hd720-and-above {
+    font-size: 24px;
     font-weight: lighter;
   }
 }
@@ -57,6 +82,10 @@
     font-size: 35px;
     font-weight: lighter;
   }
+  @include hd720-and-above {
+    font-size: 24px;
+    font-weight: lighter;
+  }
 }
 
 .normal {
@@ -64,6 +93,10 @@
   font-family: 'Quicksand', sans-serif;
   @include fullhd-and-above {
     font-size: 35px;
+    font-weight: lighter;
+  }
+  @include hd720-and-above {
+    font-size: 24px;
     font-weight: lighter;
   }
 }
@@ -75,27 +108,8 @@
     font-size: 35px;
     font-weight: lighter;
   }
-}
-
-form {
-    background: rgb(17,94,162);
-    padding: 3px;
-    position: fixed;
-    bottom: 0;
-    width: 100%
-}
-
-form input {
-    border: 0;
-    padding: 10px;
-    width: 85%;
-    margin-right: .5%
-}
-
-form button {
-    width: 13%;
-    background: #FFD630;
-    font-weight: bold;
-    border: none;
-    padding: 10px 3px;
+  @include hd720-and-above {
+    font-size: 24px;
+    font-weight: lighter;
+  }
 }

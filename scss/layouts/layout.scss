@@ -10,12 +10,21 @@
     margin-top: 80px;
     max-width: 1876px;
   }
+  @include hd720-and-above {
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-top: 55px;
+    max-width: 1248px;
+  }
 }
 
 .row {
   position: relative;
-    @include fullhd-and-above {
+  @include fullhd-and-above {
     width: 1876px;
+  }
+  @include hd720-and-above {
+    width: 1248px;
   }
 }
 
@@ -32,10 +41,21 @@
     padding-right: 22px;
     float: left;
   }
+  @include hd720-and-above {
+    padding-left: 16px;
+    padding-right: 16px;
+    float: left;
+  }
 }
 
 @include fullhd-and-above {
   .col-1-4 {
     width: 425px;
+  }
+}
+
+@include hd720-and-above {
+  .col-1-4 {
+    width: 280px;
   }
 }

@@ -391,12 +391,21 @@ p {
       padding-right: 22px;
       margin-top: 80px;
       max-width: 1876px; } }
+  @media only screen and (min-width: 1280px) and (max-width: 1919px) and (orientation: landscape) {
+    .container {
+      padding-left: 16px;
+      padding-right: 16px;
+      margin-top: 55px;
+      max-width: 1248px; } }
 
 .row {
   position: relative; }
   @media only screen and (min-width: 1920px) and (orientation: landscape) {
     .row {
       width: 1876px; } }
+  @media only screen and (min-width: 1280px) and (max-width: 1919px) and (orientation: landscape) {
+    .row {
+      width: 1248px; } }
 
 .row:after {
   content: "";
@@ -410,10 +419,19 @@ p {
       padding-left: 22px;
       padding-right: 22px;
       float: left; } }
+  @media only screen and (min-width: 1280px) and (max-width: 1919px) and (orientation: landscape) {
+    [class*='col-'] {
+      padding-left: 16px;
+      padding-right: 16px;
+      float: left; } }
 
 @media only screen and (min-width: 1920px) and (orientation: landscape) {
   .col-1-4 {
     width: 425px; } }
+
+@media only screen and (min-width: 1280px) and (max-width: 1919px) and (orientation: landscape) {
+  .col-1-4 {
+    width: 280px; } }
 
 /*Button Modules*/
 .btn-main > img {
@@ -422,11 +440,20 @@ p {
     .btn-main > img {
       width: 425px;
       height: 425px; } }
+  @media only screen and (min-width: 1280px) and (max-width: 1919px) and (orientation: landscape) {
+    .btn-main > img {
+      width: 280px;
+      height: 280px; } }
 
 @media only screen and (min-width: 1920px) and (orientation: landscape) {
   .alert-on-wnd > img {
     width: 54.6px;
     height: 251.3px; } }
+
+@media only screen and (min-width: 1280px) and (max-width: 1919px) and (orientation: landscape) {
+  .alert-on-wnd > img {
+    width: 35.88px;
+    height: 165.14px; } }
 
 .alert-on-wnd {
   position: absolute; }
@@ -434,6 +461,10 @@ p {
     .alert-on-wnd {
       left: 410px;
       bottom: 225px; } }
+  @media only screen and (min-width: 1280px) and (max-width: 1919px) and (orientation: landscape) {
+    .alert-on-wnd {
+      left: 274px;
+      bottom: 141px; } }
 
 .alert-off-wnd {
   display: none; }
@@ -443,6 +474,12 @@ p {
     width: 450px;
     padding-left: 713px;
     padding-right: 713px; } }
+
+@media only screen and (min-width: 1280px) and (max-width: 1919px) and (orientation: landscape) {
+  .foot {
+    width: 300px;
+    padding-left: 474px;
+    padding-right: 474px; } }
 
 .foot > ul {
   list-style: none;
@@ -454,6 +491,10 @@ p {
   .foot-primary {
     margin-top: 100px; } }
 
+@media only screen and (min-width: 1280px) and (max-width: 1919px) and (orientation: landscape) {
+  .foot-primary {
+    margin-top: 67px; } }
+
 .foot-primary li {
   display: inline-block; }
   @media only screen and (min-width: 1920px) and (orientation: landscape) {
@@ -461,14 +502,29 @@ p {
       font-size: 100px;
       padding-left: 25px;
       padding-right: 25px; } }
+  @media only screen and (min-width: 1280px) and (max-width: 1919px) and (orientation: landscape) {
+    .foot-primary li {
+      font-size: 67px;
+      padding-left: 17px;
+      padding-right: 17px; } }
 
 @media only screen and (min-width: 1920px) and (orientation: landscape) {
   .time-date-div {
     width: 520px;
     padding-left: 22px; } }
 
+@media only screen and (min-width: 1280px) and (max-width: 1919px) and (orientation: landscape) {
+  .time-date-div {
+    width: 347px;
+    padding-left: 16px; } }
+
 #time-date {
-  font-size: 30px;
   font-weight: bold;
   color: #1E90FF;
   font-family: 'Josefin Sans', sans-serif; }
+  @media only screen and (min-width: 1920px) and (orientation: landscape) {
+    #time-date {
+      font-size: 30px; } }
+  @media only screen and (min-width: 1280px) and (max-width: 1919px) and (orientation: landscape) {
+    #time-date {
+      font-size: 27px; } }

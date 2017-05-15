@@ -6,12 +6,20 @@
     width: 425px;
     height: 425px;
   }
+  @include hd720-and-above {
+    width: 280px;
+    height: 280px;
+  }
 }
 
 .alert-on-wnd > img {
   @include fullhd-and-above {
     width: $alert-size-x * 0.35;
     height: $alert-size-y * 0.35;
+  }
+  @include hd720-and-above {
+    width: $alert-size-x * 0.23;
+    height: $alert-size-y * 0.23;
   }
 }
 
@@ -20,6 +28,10 @@
   @include fullhd-and-above {
     left: 410px;
     bottom: 225px;
+  }
+  @include hd720-and-above {
+    left: 274px;
+    bottom: 141px;
   }
 }
 

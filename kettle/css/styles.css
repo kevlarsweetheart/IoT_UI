@@ -397,52 +397,6 @@ p {
       padding-right: 13px;
       max-width: 1254px; } }
 
-.row {
-  position: relative; }
-  @media only screen and (min-width: 1920px) and (orientation: landscape) {
-    .row {
-      width: 1720px; } }
-  @media only screen and (min-width: 1280px) and (max-width: 1919px) and (orientation: landscape) {
-    .row {
-      width: 1146px; } }
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both; }
-
-[class*='col-'] {
-  position: relative;
-  text-align: left; }
-  @media only screen and (min-width: 1920px) and (orientation: landscape) {
-    [class*='col-'] {
-      float: left;
-      padding-left: 100px;
-      padding-right: 100px; } }
-  @media only screen and (min-width: 1280px) and (max-width: 1919px) and (orientation: landscape) {
-    [class*='col-'] {
-      float: left;
-      padding-left: 67px;
-      padding-right: 67px; } }
-
-@media only screen and (min-width: 1920px) and (orientation: landscape) {
-  .col-1-2 {
-    width: 660px; } }
-
-@media only screen and (min-width: 1280px) and (max-width: 1919px) and (orientation: landscape) {
-  .col-1-2 {
-    width: 439px; } }
-
-@media only screen and (min-width: 1920px) and (orientation: landscape) {
-  .btn-nav > img {
-    width: 40px;
-    height: 40px; } }
-
-@media only screen and (min-width: 1280px) and (max-width: 1919px) and (orientation: landscape) {
-  .btn-nav > img {
-    width: 27px;
-    height: 27px; } }
-
 .header-primary {
   background: #1E90FF;
   width: 100%;
@@ -513,112 +467,15 @@ p {
         margin-left: 20px;
         margin-right: 20px; } }
 
-.wnd-status {
-  position: relative;
-  margin-left: auto;
-  margin-right: auto; }
-  @media only screen and (min-width: 1920px) and (orientation: landscape) {
-    .wnd-status {
-      margin-top: 230px;
-      padding-left: 100px;
-      padding-right: 100px;
-      max-width: 1720px; } }
-  @media only screen and (min-width: 1280px) and (max-width: 1919px) and (orientation: landscape) {
-    .wnd-status {
-      max-width: 1146px;
-      padding-left: 67px;
-      padding-right: 67px;
-      margin-top: 154px; } }
-  .wnd-status p {
-    color: #1E90FF;
-    font-family: 'Josefin Sans', sans-serif; }
-    @media only screen and (min-width: 1920px) and (orientation: landscape) {
-      .wnd-status p {
-        font-size: 60px;
-        font-weight: lighter; } }
-    @media only screen and (min-width: 1280px) and (max-width: 1919px) and (orientation: landscape) {
-      .wnd-status p {
-        font-size: 40px;
-        font-weight: lighter; } }
-  .wnd-status .field {
-    color: #4682B4;
-    font-family: 'Quicksand', sans-serif; }
-    @media only screen and (min-width: 1920px) and (orientation: landscape) {
-      .wnd-status .field {
-        font-size: 35px;
-        font-weight: lighter; } }
-    @media only screen and (min-width: 1280px) and (max-width: 1919px) and (orientation: landscape) {
-      .wnd-status .field {
-        font-size: 24px;
-        font-weight: lighter; } }
+@media only screen and (min-width: 1920px) and (orientation: landscape) {
+  .btn-nav > img {
+    width: 40px;
+    height: 40px; } }
 
-.status {
-  position: relative; }
-  @media only screen and (min-width: 1920px) and (orientation: landscape) {
-    .status {
-      margin-top: 15px;
-      margin-bottom: 15px; } }
-  @media only screen and (min-width: 1280px) and (max-width: 1919px) and (orientation: landscape) {
-    .status {
-      margin-top: 10px;
-      margin-bottom: 10px; } }
-
-.battery {
-  position: relative; }
-  @media only screen and (min-width: 1920px) and (orientation: landscape) {
-    .battery {
-      margin-top: 15px; } }
-  @media only screen and (min-width: 1280px) and (max-width: 1919px) and (orientation: landscape) {
-    .battery {
-      margin-top: 10px; } }
-
-.closed {
-  color: #228B22;
-  font-family: 'Quicksand', sans-serif; }
-  @media only screen and (min-width: 1920px) and (orientation: landscape) {
-    .closed {
-      font-size: 35px;
-      font-weight: lighter; } }
-  @media only screen and (min-width: 1280px) and (max-width: 1919px) and (orientation: landscape) {
-    .closed {
-      font-size: 24px;
-      font-weight: lighter; } }
-
-.open {
-  color: #DC143C;
-  font-family: 'Quicksand', sans-serif; }
-  @media only screen and (min-width: 1920px) and (orientation: landscape) {
-    .open {
-      font-size: 35px;
-      font-weight: lighter; } }
-  @media only screen and (min-width: 1280px) and (max-width: 1919px) and (orientation: landscape) {
-    .open {
-      font-size: 24px;
-      font-weight: lighter; } }
-
-.normal {
-  color: #228B22;
-  font-family: 'Quicksand', sans-serif; }
-  @media only screen and (min-width: 1920px) and (orientation: landscape) {
-    .normal {
-      font-size: 35px;
-      font-weight: lighter; } }
-  @media only screen and (min-width: 1280px) and (max-width: 1919px) and (orientation: landscape) {
-    .normal {
-      font-size: 24px;
-      font-weight: lighter; } }
-
-.low {
-  color: #DC143C;
-  font-family: 'Quicksand', sans-serif; }
-  @media only screen and (min-width: 1920px) and (orientation: landscape) {
-    .low {
-      font-size: 35px;
-      font-weight: lighter; } }
-  @media only screen and (min-width: 1280px) and (max-width: 1919px) and (orientation: landscape) {
-    .low {
-      font-size: 24px;
-      font-weight: lighter; } }
+@media only screen and (min-width: 1280px) and (max-width: 1919px) and (orientation: landscape) {
+  .btn-nav > img {
+    width: 27px;
+    height: 27px; } }
 
 .foot {
   position: absolute; }

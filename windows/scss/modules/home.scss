@@ -8,13 +8,21 @@
     width: 40px;
     height: 40px;
   }
+  @include hd720-and-above {
+    width: 27px;
+    height: 27px;
+  }
 }
 
 .home-text {
   color: $white-smoke;
   position: relative;
-  margin-left: 10px;
   @include fullhd-and-above {
     font-size: 40px;
+    margin-left: 10px;
+  }
+  @include hd720-and-above {
+    margin-left: 7px;
+    font-size: 27px;
   }
 }

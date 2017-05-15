@@ -3,4 +3,8 @@
     width: 40px;
     height: 40px;
   }
+  @include hd720-and-above {
+    width: 27px;
+    height: 27px;
+  }
 }

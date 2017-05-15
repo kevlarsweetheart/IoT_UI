@@ -5,10 +5,19 @@
     //margin-left: 828px;
     //margin-right: 828px;
   }
+  @include hd720-and-above {
+    width: 347px;
+    padding-left: 16px;
+  }
 }
 
 #time-date {
-  font-size: 30px;
+  @include fullhd-and-above {
+    font-size: 30px;
+  }
+  @include hd720-and-above {
+    font-size: 27px;
+  }
   font-weight: bold;
   color: $link-color;
   font-family: 'Josefin Sans', sans-serif;

@@ -5,6 +5,11 @@
     right: 40px;
     bottom: 30px;
   }
+  @include hd720-and-above {
+    width: 150px;
+    right: 30px;
+    bottom: 25px;
+  }
 }
 
 .foot > ul {
@@ -19,6 +24,11 @@
       font-size: 30px;
       padding-left: 10px;
       padding-right: 10px;
+    }
+    @include hd720-and-above {
+      font-size: 20px;
+      padding-left: 7px;
+      padding-right: 7px;
     }
     a {
       color: $light-sky-blue;

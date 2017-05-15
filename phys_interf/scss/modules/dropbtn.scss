@@ -6,6 +6,9 @@
   @include fullhd-and-above {
     font-size: 45px;
   }
+  @include hd720-and-above {
+    font-size: 30px;
+  }
   border-style: solid;
   border-color: $white-smoke;
   cursor: pointer;
@@ -19,6 +22,9 @@
   @include fullhd-and-above {
     font-size: 45px;
   }
+  @include hd720-and-above {
+    font-size: 30px;
+  }
   border-style: solid;
   border-color: $white-smoke;
   cursor: pointer;
@@ -31,6 +37,9 @@
   font-family: 'Josefin Sans', sans-serif;
   @include fullhd-and-above {
     font-size: 45px;
+  }
+  @include hd720-and-above {
+    font-size: 30px;
   }
   border-style: solid;
   border-color: $white-smoke;

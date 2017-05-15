@@ -4,6 +4,11 @@
     padding-left: 713px;
     padding-right: 713px;
   }
+  @include hd720-and-above {
+    width: 300px;
+    padding-left: 474px;
+    padding-right: 474px;
+  }
 }
 
 .foot > ul {
@@ -17,12 +22,20 @@
   @include fullhd-and-above {
     margin-top: 100px;
   }
+  @include hd720-and-above {
+    margin-top: 67px;
+  }
   li {
     display: inline-block;
     @include fullhd-and-above {
       font-size: 100px;
       padding-left: 25px;
       padding-right: 25px;
+    }
+    @include hd720-and-above {
+      font-size: 67px;
+      padding-left: 17px;
+      padding-right: 17px;
     }
   }
 }
