@@ -477,6 +477,115 @@ p {
     width: 27px;
     height: 27px; } }
 
+.container-func {
+  margin-left: auto;
+  margin-right: auto; }
+  @media only screen and (min-width: 1920px) and (orientation: landscape) {
+    .container-func {
+      padding-left: 22px;
+      padding-right: 22px;
+      margin-top: 120px;
+      max-width: 1876px; } }
+  @media only screen and (min-width: 1280px) and (max-width: 1919px) and (orientation: landscape) {
+    .container-func {
+      padding-left: 16px;
+      padding-right: 16px;
+      margin-top: 83px;
+      max-width: 1248px; } }
+
+.row {
+  position: relative; }
+  @media only screen and (min-width: 1920px) and (orientation: landscape) {
+    .row {
+      width: 1876px; } }
+  @media only screen and (min-width: 1280px) and (max-width: 1919px) and (orientation: landscape) {
+    .row {
+      width: 1248px; } }
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+[class*='col-'] {
+  position: relative; }
+  @media only screen and (min-width: 1920px) and (orientation: landscape) {
+    [class*='col-'] {
+      padding-left: 22px;
+      padding-right: 22px;
+      float: left; } }
+  @media only screen and (min-width: 1280px) and (max-width: 1919px) and (orientation: landscape) {
+    [class*='col-'] {
+      padding-left: 16px;
+      padding-right: 16px;
+      float: left; } }
+
+@media only screen and (min-width: 1920px) and (orientation: landscape) {
+  .col-1-4 {
+    width: 425px; } }
+
+@media only screen and (min-width: 1280px) and (max-width: 1919px) and (orientation: landscape) {
+  .col-1-4 {
+    width: 280px; } }
+
+.btn-func {
+  position: relative;
+  border-style: solid;
+  border-color: #1E90FF;
+  border-width: 3px;
+  border-radius: 10%; }
+  @media only screen and (min-width: 1920px) and (orientation: landscape) {
+    .btn-func {
+      width: 295px;
+      height: 295px;
+      padding: 63.5px; } }
+  @media only screen and (min-width: 1280px) and (max-width: 1919px) and (orientation: landscape) {
+    .btn-func {
+      width: 193px;
+      height: 193px;
+      padding: 42px; } }
+  .btn-func span {
+    display: none; }
+
+.btn-func:hover > img {
+  -webkit-filter: blur(30px);
+  -moz-filter: blur(30px);
+  -o-filter: blur(30px);
+  -ms-filter: blur(30px);
+  filter: blur(30px);
+  -webkit-transition: all 0.5s linear;
+  -moz-transition: all 0.5s linear;
+  -ms-transition: all 0.5s linear;
+  -o-transition: all 0.5s linear;
+  transition: all 0.5s linear; }
+
+.btn-func:hover > span {
+  display: block;
+  position: relative;
+  font-family: 'Quicksand', sans-serif;
+  color: #483D8B;
+  margin: auto;
+  text-align: center; }
+  @media only screen and (min-width: 1920px) and (orientation: landscape) {
+    .btn-func:hover > span {
+      font-size: 45px;
+      bottom: 210px; } }
+  @media only screen and (min-width: 1280px) and (max-width: 1919px) and (orientation: landscape) {
+    .btn-func:hover > span {
+      font-size: 30px;
+      bottom: 140px; } }
+
+.btn-func > img {
+  position: relative; }
+  @media only screen and (min-width: 1920px) and (orientation: landscape) {
+    .btn-func > img {
+      width: 298px;
+      height: 298px; } }
+  @media only screen and (min-width: 1280px) and (max-width: 1919px) and (orientation: landscape) {
+    .btn-func > img {
+      width: 196px;
+      height: 196px; } }
+
 .foot {
   position: absolute; }
   @media only screen and (min-width: 1920px) and (orientation: landscape) {

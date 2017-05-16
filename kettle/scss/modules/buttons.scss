@@ -1,0 +1,63 @@
+.btn-func {
+  position: relative;
+  border-style: solid;
+  border-color: $dodger-blue;
+  border-width: 3px;
+  border-radius: 10%;
+  @include fullhd-and-above {
+    width: 295px;
+    height: 295px;
+    padding: 63.5px;
+  }
+  @include hd720-and-above {
+    width: 193px;
+    height: 193px;
+    padding: 42px;
+  }
+  span {
+    display: none;
+  }
+}
+
+.btn-func:hover {
+  > img {
+    -webkit-filter: blur(30px);
+       -moz-filter: blur(30px);
+         -o-filter: blur(30px);
+        -ms-filter: blur(30px);
+            filter: blur(30px);
+    -webkit-transition: all 0.5s linear;
+       -moz-transition: all 0.5s linear;
+        -ms-transition: all 0.5s linear;
+         -o-transition: all 0.5s linear;
+            transition: all 0.5s linear;
+  }
+  > span {
+    display: block;
+    position: relative;
+    font-family: 'Quicksand', sans-serif;
+    color: $dark-slate-blue;
+    margin: auto;
+    text-align: center;
+    @include fullhd-and-above {
+      font-size: 45px;
+      bottom: 210px;
+    }
+    @include hd720-and-above {
+      font-size: 30px;
+      bottom: 140px;
+    }
+  }
+}
+
+.btn-func > img {
+  position: relative;
+  @include fullhd-and-above {
+    width: 298px;
+    height: 298px;
+  }
+  @include hd720-and-above {
+    width: 196px;
+    height: 196px;
+  }
+}
