@@ -386,12 +386,12 @@ p {
 .container {
   margin-left: auto;
   margin-right: auto; }
-  @media (min-width: 1920px) and (orientation: landscape) {
+  @media only screen and (min-width: 1920px) and (orientation: landscape) {
     .container {
       padding-left: 20px;
       padding-right: 20px;
       max-width: 1880px; } }
-  @media (min-width: 1280px) and (max-width: 1919px) and (orientation: landscape) {
+  @media only screen and (min-width: 1280px) and (max-width: 1919px) and (orientation: landscape) {
     .container {
       padding-left: 13px;
       padding-right: 13px;
@@ -402,7 +402,7 @@ p {
   width: 100%;
   position: relative;
   z-index: 1; }
-  @media (min-width: 1920px) and (orientation: landscape) {
+  @media only screen and (min-width: 1920px) and (orientation: landscape) {
     .header-primary {
       padding-top: 15px;
       padding-bottom: 15px; }
@@ -410,7 +410,7 @@ p {
         content: "";
         display: table;
         clear: both; } }
-  @media (min-width: 1280px) and (max-width: 1919px) and (orientation: landscape) {
+  @media only screen and (min-width: 1280px) and (max-width: 1919px) and (orientation: landscape) {
     .header-primary {
       padding-top: 10px;
       padding-bottom: 10px; }
@@ -423,12 +423,12 @@ p {
   overflow: hidden;
   display: inline-block; }
 
-@media (min-width: 1920px) and (orientation: landscape) {
+@media only screen and (min-width: 1920px) and (orientation: landscape) {
   .home > img {
     width: 40px;
     height: 40px; } }
 
-@media (min-width: 1280px) and (max-width: 1919px) and (orientation: landscape) {
+@media only screen and (min-width: 1280px) and (max-width: 1919px) and (orientation: landscape) {
   .home > img {
     width: 27px;
     height: 27px; } }
@@ -436,11 +436,11 @@ p {
 .home-text {
   color: #F5F5F5;
   position: relative; }
-  @media (min-width: 1920px) and (orientation: landscape) {
+  @media only screen and (min-width: 1920px) and (orientation: landscape) {
     .home-text {
       font-size: 40px;
       margin-left: 10px; } }
-  @media (min-width: 1280px) and (max-width: 1919px) and (orientation: landscape) {
+  @media only screen and (min-width: 1280px) and (max-width: 1919px) and (orientation: landscape) {
     .home-text {
       margin-left: 7px;
       font-size: 27px; } }
@@ -452,14 +452,14 @@ p {
 
 .nav-primary {
   width: 23%; }
-  @media (min-width: 1920px) and (orientation: landscape) {
+  @media only screen and (min-width: 1920px) and (orientation: landscape) {
     .nav-primary {
       float: right; }
       .nav-primary li {
         display: inline-block;
         margin-left: 30px;
         margin-right: 30px; } }
-  @media (min-width: 1280px) and (max-width: 1919px) and (orientation: landscape) {
+  @media only screen and (min-width: 1280px) and (max-width: 1919px) and (orientation: landscape) {
     .nav-primary {
       float: right; }
       .nav-primary li {
@@ -467,24 +467,24 @@ p {
         margin-left: 20px;
         margin-right: 20px; } }
 
-@media (min-width: 1920px) and (orientation: landscape) {
+@media only screen and (min-width: 1920px) and (orientation: landscape) {
   .btn-nav > img {
     width: 40px;
     height: 40px; } }
 
-@media (min-width: 1280px) and (max-width: 1919px) and (orientation: landscape) {
+@media only screen and (min-width: 1280px) and (max-width: 1919px) and (orientation: landscape) {
   .btn-nav > img {
     width: 27px;
     height: 27px; } }
 
 .foot {
   position: absolute; }
-  @media (min-width: 1920px) and (orientation: landscape) {
+  @media only screen and (min-width: 1920px) and (orientation: landscape) {
     .foot {
       width: 200px;
       right: 40px;
       bottom: 30px; } }
-  @media (min-width: 1280px) and (max-width: 1919px) and (orientation: landscape) {
+  @media only screen and (min-width: 1280px) and (max-width: 1919px) and (orientation: landscape) {
     .foot {
       width: 150px;
       right: 30px;
@@ -496,12 +496,12 @@ p {
 
 .foot-primary li {
   display: inline-block; }
-  @media (min-width: 1920px) and (orientation: landscape) {
+  @media only screen and (min-width: 1920px) and (orientation: landscape) {
     .foot-primary li {
       font-size: 30px;
       padding-left: 10px;
       padding-right: 10px; } }
-  @media (min-width: 1280px) and (max-width: 1919px) and (orientation: landscape) {
+  @media only screen and (min-width: 1280px) and (max-width: 1919px) and (orientation: landscape) {
     .foot-primary li {
       font-size: 20px;
       padding-left: 7px;
